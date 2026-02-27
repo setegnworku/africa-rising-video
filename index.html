@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Africa Rising: Climate-Smart Cattle</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background: #0a0f1e;
+      color: #f0f0f0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 30px 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .badge {
+      display: inline-block;
+      background: #c8a84b;
+      color: #0a0f1e;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      padding: 5px 16px;
+      border-radius: 20px;
+      margin-bottom: 18px;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #ffffff;
+      line-height: 1.3;
+      margin-bottom: 8px;
+    }
+
+    h1 span { color: #c8a84b; }
+
+    .subtitle {
+      font-size: 0.95rem;
+      color: #8a9bb5;
+      margin-bottom: 30px;
+      line-height: 1.6;
+    }
+
+    .video-wrapper {
+      position: relative;
+      width: 100%;
+      background: #000;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.6);
+      border: 1px solid #1e2d4a;
+    }
+
+    video {
+      width: 100%;
+      display: block;
+      max-height: 540px;
+    }
+
+    .meta {
+      margin-top: 24px;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+      font-size: 0.85rem;
+      color: #6b7fa0;
+    }
+
+    .meta span { display: flex; align-items: center; gap: 6px; }
+
+    .footer {
+      margin-top: 36px;
+      font-size: 0.8rem;
+      color: #3d4f6e;
+      line-height: 1.8;
+    }
+
+    .footer a { color: #c8a84b; text-decoration: none; }
+    .footer a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="badge">BGP3 Workshop · South Africa 2026</div>
+
+    <h1>Africa Rising:<br><span>Climate-Smart Cattle</span></h1>
+
+    <p class="subtitle">
+      Presented by <strong>Dr. Setegn Worku Alemu</strong> on behalf of Prof. Raphael Mrode<br>
+      ILRI / CGIAR · Global Methane Genetics Initiative — Africa Chapter
+    </p>
+
+    <div class="video-wrapper">
+      <video
+        controls
+        preload="metadata"
+        poster=""
+        playsinline
+      >
+        <source
+          src="https://github.com/setegnworku/africa-rising-video/releases/download/v1.0/Africa_Rising_v2.mp4"
+          type="video/mp4"
+        />
+        Your browser does not support HTML5 video.
+        <a href="https://github.com/setegnworku/africa-rising-video/releases/download/v1.0/Africa_Rising_v2.mp4">Download the video</a>
+      </video>
+    </div>
+
+    <div class="meta">
+      <span>⏱ 4 minutes</span>
+      <span>🌍 5 African countries</span>
+      <span>🐄 Climate-smart livestock genetics</span>
+    </div>
+
+    <div class="footer">
+      <a href="https://www.ilri.org" target="_blank">ILRI</a> ·
+      <a href="https://globalmethanehub.org" target="_blank">Global Methane Hub</a> ·
+      Global Methane Genetics Initiative — Africa Chapter
+    </div>
+  </div>
+</body>
+</html>
