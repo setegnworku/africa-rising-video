@@ -1,0 +1,27 @@
+# API keys — never commit these
+.env
+*.env
+secrets.txt
+
+# Generated video and audio files
+*.mp4
+*.mp3
+_raw_concat*.mp4
+_concat_list*.txt
+*_padded.mp3
+
+# Intermediate slide videos
+slide*.mp4
+slide*.mp3
+
+# Large source files
+*.pptx
+*.pdf
+
+# Converted slides (generated from JPGs)
+slide*.png
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
